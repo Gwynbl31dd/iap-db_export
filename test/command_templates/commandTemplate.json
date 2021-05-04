@@ -1,0 +1,24 @@
+{
+    "tags": [],
+    "name": "HelloWorld",
+    "os": "",
+    "passRule": true,
+    "ignoreWarnings": false,
+    "commands": [
+      {
+        "command": "echo \"Hello world\"",
+        "passRule": true,
+        "rules": [
+          {
+            "rule": "Hello world",
+            "eval": "contains",
+            "severity": "error"
+          }
+        ]
+      }
+    ],
+    "created": 1619743270476,
+    "createdBy": "admin@pronghorn",
+    "lastUpdated": 1619743270476,
+    "lastUpdatedBy": "admin@pronghorn"
+  }

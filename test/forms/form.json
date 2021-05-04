@@ -1,0 +1,50 @@
+{
+    "name": "HelloForm",
+    "children": [
+      {
+        "id": "cont-knseb6lo",
+        "source_type": "custom",
+        "type": "container",
+        "direction": "vertical",
+        "children": [
+          {
+            "id": "bb386e6a-16a5-40b6-8fa0-5dfb3e05070e",
+            "source_type": "custom",
+            "key": "key_bb386e6a-16a5-40b6-8fa0-5dfb3e05070e",
+            "type": "field",
+            "properties": {
+              "type": "text",
+              "required": false,
+              "minlength": null,
+              "maxlength": null,
+              "regex": null
+            },
+            "name": "Some text",
+            "display_name": "Some text",
+            "default": "world"
+          }
+        ],
+        "properties": {},
+        "key": "key_a607b2f6-d1e5-48a6-b0bd-f4afb7f55d01"
+      }
+    ],
+    "elements": [],
+    "created": "2021-04-22T04:39:54.502Z",
+    "createdBy": {
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false,
+      "email": ""
+    },
+    "groups": [],
+    "lastUpdated": "2021-04-22T04:40:27.532Z",
+    "lastUpdatedBy": {
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false,
+      "email": ""
+    },
+    "tags": []
+  }

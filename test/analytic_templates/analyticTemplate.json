@@ -1,0 +1,27 @@
+{
+    "name": "helloAnalytic",
+    "passRule": false,
+    "prepostCommands": [
+      {
+        "preRawCommand": "test",
+        "postRawCommand": "test",
+        "passRule": true,
+        "rules": [
+          {
+            "type": "regex",
+            "preRegex": "*",
+            "postRegex": "*",
+            "evaluator": "=",
+            "severity": "error"
+          }
+        ],
+        "preCommandValue": "test",
+        "postCommandValue": "test"
+      }
+    ],
+    "created": 1619753202858,
+    "createdBy": "admin@pronghorn",
+    "lastUpdated": 1619753202858,
+    "lastUpdatedBy": "admin@pronghorn",
+    "tag_id": {}
+  }

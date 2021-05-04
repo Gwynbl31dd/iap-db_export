@@ -1,0 +1,78 @@
+{
+    "name": "Hello World",
+    "tasks": {
+      "workflow_start": {
+        "name": "workflow_start",
+        "groups": [],
+        "x": 0,
+        "y": 0.5
+      },
+      "workflow_end": {
+        "name": "workflow_end",
+        "groups": [],
+        "x": 1,
+        "y": 0.5
+      },
+      "49bd": {
+        "name": "helloWorld",
+        "canvasName": "helloWorld",
+        "summary": "Show hello world message",
+        "description": "return a hello world message",
+        "location": "Application",
+        "locationType": null,
+        "app": "HelloWorld",
+        "type": "automatic",
+        "displayName": "HelloWorld",
+        "variables": {
+          "incoming": {
+            "name": ""
+          },
+          "outgoing": {
+            "hello": null
+          }
+        },
+        "deprecated": false,
+        "matched": [],
+        "groups": [],
+        "actor": "Pronghorn",
+        "x": 0.4975710156096952,
+        "y": 0.5
+      }
+    },
+    "transitions": {
+      "workflow_start": {
+        "49bd": {
+          "type": "standard",
+          "state": "success"
+        }
+      },
+      "workflow_end": {},
+      "49bd": {
+        "workflow_end": {
+          "type": "standard",
+          "state": "success"
+        }
+      }
+    },
+    "font_size": 12,
+    "created": "2021-04-16T05:07:33.532Z",
+    "created_by": {
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false
+    },
+    "createdVersion": "5.10.4-2020.1.45.0",
+    "groups": [],
+    "last_updated": "2021-04-16T05:07:33.532Z",
+    "last_updated_by": {
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false
+    },
+    "lastUpdatedVersion": "5.10.4-2020.1.45.0",
+    "type": "automation",
+    "description": null,
+    "tags": []
+  }

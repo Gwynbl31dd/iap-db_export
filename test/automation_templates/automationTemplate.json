@@ -1,0 +1,26 @@
+{
+    "_id": "608b7b39d6aa64012d3b9b8e",
+    "command": "",
+    "template": "",
+    "data": "",
+    "type": "textfsm",
+    "name": "HelloTemplate",
+    "group": "guest",
+    "description": null,
+    "created": "2021-04-30T03:36:25.911Z",
+    "lastUpdated": "2021-04-30T03:36:25.911Z",
+    "createdBy": {
+      "_id": "608a4e69c9bc9a004b862861",
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false
+    },
+    "lastUpdatedBy": {
+      "_id": "608a4e69c9bc9a004b862861",
+      "provenance": "Local AAA",
+      "username": "admin@pronghorn",
+      "firstname": "admin",
+      "inactive": false
+    }
+  }

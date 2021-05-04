@@ -1,0 +1,28 @@
+{
+	"name": "iap-db_export",
+	"version": "1.1.1",
+	"description": "IAP data loader",
+	"main": "app.js",
+	"scripts": {
+		"test": "mocha --recursive test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git.proteuscd.corp.telstra.com/projects/IPDMPH/repos/iap-db_export/browse"
+	},
+	"dependencies": {
+		"log": "^6.0.0"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.2.2",
+		"sinon": "^7.5.0"
+	},
+	"keywords": [
+		"pronghorn",
+		"iap",
+		"template"
+	],
+	"author": "Anthony Paulin",
+	"license": "MIT"
+}
